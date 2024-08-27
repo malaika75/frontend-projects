@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon clone</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-address border">
+                <p class="address">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="pak"> pakistan</p>
+                </div>
+            </div>
+            <div class="search-bar">
+                <select class="search-select">
+                <option>All</option>
+                <option value="All departments">all departments</option>
+                <option value="arts & crafts">arts & crafts</option>
+                <option value="automobiles">automobiles</option>
+                <option value="books">books</option>
+                <option value="dvds & movies">dvds & movies</option>
+                <option value="electronics">electronics</option>
+                <option value="fashion">fashion</option>
+                <option value="food & grocery">food & grocery</option>
+                <option value="health & beauty">health & beauty</option>
+                <option value="Home & kitchen">home & kitchen</option>
+                <option value="beauty">beauty</option>
+                <option value="Toys & games">toys & games</option>
+                </select>
+                <input type="text" placeholder="search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-signin border">
+            <p class="nav-hello"><span>Hello, Sign in</span></p>
+            <p class="nav-account">Account & Lists</p>
+        </div>
+        
+        <div class="nav-return border">
+            <p class="nav-hello"><span>Returns</span></p>
+            <p class="nav-account">& Orders</p>
+        </div>
+
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            cart
+            
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-all border">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="side-bar">
+            <div class="category1" onclick="togglesubmenu">
+                Digital Content & Devices
+                Amazon music <span class="arrow">></span>
+            </div>
+            <div class="sub-menu1">
+                Stream Music
+                <a href="#">Amazon Music Unlimited</a>
+                <a href="#">Free Streaming Music</a>    
+                <a href="#">Podcasts</a>
+                <a href="#">Open Web Player</a>
+                <a href="#">Open Web Player</a>
+                <a href="#">Download the app</a>
+
+            </div>
+            
+        </div>
+        <div class="panel-ops">
+            <p class="border">today's deals</p>
+            <p class="border">costomer service</p>
+            <p class="border">Registry</p>
+            <p class="border">Gift Cards</p>
+            <p class="border">sell</p>
+    </div>
+    <div class="panel-deals border">
+        shop deals in electronics
+    </div>
+    </div>
+</header>
+
+<div class="hero-panel">
+
+ <div class="shop-section">
+    <div class="box1 box">
+        <h2>Toys under $25</h2>
+        <div class="box-img1"></div>
+        <p>see more</p>
+ </div>
+    <div class="box2 box">
+        <h2>Deals in PCs</h2>
+        <div class="box2-img1"></div>
+        <p>see more</p>
+    </div>
+    <div class="box3 box">
+        <h2>Beauty steals under $25</h2>
+        <div class="box3-img1"></div>
+        <p>shop now</p>
+    </div>
+    <div class="box4 box">
+        <h2>Great prices on shoes</h2>
+        <div class="box4-img1"></div>
+        <p>see more</p>
+    </div>
+ <div class="shop-section2"> 
+    <div class="box5 box">
+        <h2>Home decor under $50</h2>
+        <div class="box5-img1"></div>
+        <p>shop now</p>
+ </div>
+    <div class="box6 box">
+        <h2>Shop activity trackers and smartwatches</h2>
+        <div class="box6-img1"></div>
+        <p>shop now</p>
+    </div>
+    <div class="box7 box">
+        <h2>Upgrade your office furniture</h2>
+        <div class="box7-img1"></div>
+        <p>shop now</p>
+    </div>
+    <div class="box8 box">
+        <h2>Player's paradise starts here</h2>
+        <div class="box8-img1"></div>
+        <p>shop now</p> 
+     </div> 
+    </div> 
+    <div class="shop-section3">
+        <div class="box9">
+            <h2>Best sellers in toys and games</h2>
+            <div class="box9-img1"></div>
+            <div class="img10"></div>
+            <div class="img11"></div>
+            <div class="img12"></div>
+            <div class="img13"></div>
+            <div class="img14"></div>
+            
+        </div>
+    </div>
+
+    <div class="shop-section4">
+        <div class="box15">
+            <h2>Top sellers in baby products for you</h2>
+            <div class="box15-img1"></div>
+            <div class="img16"></div>
+            <div class="img17"></div>
+            <div class="img18"></div>
+            <div class="img19"></div>
+            <div class="img20"></div>
+            <div class="img21"></div>
+        </div>
+    </div>
+
+    <div class="shop-section5">
+        <div class="box16">
+            <h2>Most wished for in movies & TV</h2>
+            <div class="box22-img1"></div>
+            <div class="img23"></div>
+            <div class="img24"></div>
+            <div class="img25"></div>
+            <div class="img26"></div>
+        </div>
+    </div>
+    <footer>
+    <div class="foot-panel1">
+        back to Top
+    </div>
+    <div class="panel2">
+        <ul>
+        <p>Get to Know Us</p>
+        <a>Careers</a>
+        <a>Blog</a>
+        <a>About Amazon</a>
+        <a>Investor Relations</a>
+        <a>Amazon Devices</a>
+        <a>Amazon Science</a>
+    </ul>
+        
+    <ul>
+        <p>Make Money with Us</p>
+        <a>Sell products on Amazon </a>
+        <a>Sell on Amazon Business </a>
+        <a>Sell apps on Amazon  </a>
+        <a>Become an Affiliate </a>
+        <a>Advertise Your Products  </a>
+        <a>Self-Publish with Us </a>
+        <a>Host an Amazon Hub</a>
+        <a>›See More Make Money with Us </a>
+    </ul>
+        
+    <ul>
+        <p>Amazon Payment Products</p>   
+        <a>Amazon Business Card</a>
+        <a>Shop with Points</a>
+        <a>Reload Your Balance</a>
+        <a>Amazon Currency Converter</a>
+     </ul>
+
+    <ul>
+        <p>Let Us Help You</p>      
+        <a>Amazon and COVID-19</a>
+        <a>Your Account</a>
+        <a>Your Orders</a>
+        <a>Shipping Rates & Policies</a>
+        <a>Returns & Replacements</a>
+        <a>Manage Your Content and Devices</a>
+        <a>Help</a>
+    </ul>
+</div>
+
+<div class="panel3">
+    <div class="logo2"></div>
+    <div class="CONTENT">
+       <div class="content2">
+        <i class="fa-solid fa-globe"></i>
+        ENGLISH
+    </div> 
+      <div class="content2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg" alt="flag">
+        pakistan</div>
+    </div>
+</div>
+
+<div class="panel4">
+    <div class="pages">
+        <a>Conditions of Use</a>
+        <a>Privacy Notice</a>
+        <a>Consumer health data Privacy Disclosure </a>
+        <a>your Ads Privacy choices </a>
+        
+    </div>
+    <div class="copy-right">
+        © 1996-2022, Amazon.com, Inc. or its affiliates
+    </div>
+</div>
+</footer>
+ </div> 
+ </div> 
+ <script src="index.js"></script>
+
+
+</body>
+</html>
