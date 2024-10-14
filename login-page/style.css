@@ -1,71 +1,39 @@
-#container{
-    height: 300px; 
-    width: 400px;
+#container
+{
+    height: 60vmin;
+    width: 60vmin;
     padding: 20px;
     border: 2px solid black;
     margin: 30px;
     background-color: rgba(151, 206, 243, 0.5);
     border-radius: 25px;
     text-align: center;
-    font-size: 20px;
-    
-}
+    font-size: 3vmin;
+    }
 
 body{
     background-image: url(https://t4.ftcdn.net/jpg/06/80/35/81/360_F_680358140_OWBF6ezZOzgJ8dLhc998DSmqXHd08ej9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    height: 100vh;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 80px;
-    
-
-}
+    top: 10px;
+    }
 
 input{
-    font-size: 15px;
+    font-size: 3vmin;
 }
 
 #container:hover{
     background-color: rgb(224, 161, 97);
-    font-size: 25px;
+    font-size: 4vmin;
     
 }
 
 input:hover{
-    font-size: 30px;
-}
-
-@media(max-width:320){
-
-    #container{
-        height: 200px;
-        /* flex-shrink: 0; */
-
-    }
-    #container:hover{
-        font-size: 10px;
-    }
-    #input:hover{
-        font-size: 5px;
-    }
-}
-
-@media(max-width:786px){
-    #container{
-        box-sizing: inherit;
-    }
-    #container:hover{
-        font-size: 20px;
-    }
-    #input:hover{
-        font-size: 5px;
-    }
-}
-
-@media only screen and (min-width:787px)and(max-width:992px){
-    
+   font-size: 4vmin;
 }

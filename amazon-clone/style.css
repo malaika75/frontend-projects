@@ -5,26 +5,31 @@
 }
 
 .navbar{
-    height: 60px;
+     /* height: 60px;  */
+     height:  9vmin;
     background-color: #0f1111;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-direction: row;
     
 }
     
 .nav-logo{
-    height: 60px;
-    width: 100px;
+    /* height: 60px; */
+    /* width: 100px; */
+    height: 10vmin;
+    width: 10vmin;
+    margin-right: 20px;
 }
 .logo{
     background-image: url(https://www.thesun.co.uk/wp-content/uploads/2022/02/Amazon-Logo-1024x426-1.png?strip=all&w=960);
     background-size: cover;
-    height: 40px;
-    width: 100px;
-     margin-top: 10px;
-    margin-right: 10px;
+    height: 40px; 
+    width: 100px; 
+    margin-top: 10px;
+ margin-right: 20px; 
 } 
 
 .border{
@@ -35,6 +40,9 @@
     border: 1.5px solid white;
 }
 
+.nav-address{
+    height: 6vh ;
+}
 .address{
     font-size: 1rem;
     color: #cccccc;
@@ -54,8 +62,11 @@
     display: flex;
     background-color: rgb(255, 173, 92);
     justify-content: space-evenly;
-    width: 620px;
-    height: 40px;
+     /* width: 620px;  */
+    /* height: 40px; */
+     /* width: 95vmin; */
+     width: 50vw;
+    height: 6vmin;
     border-radius: 3px;
     border: none;
 }
@@ -64,7 +75,9 @@
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     background-color: #f3f3f3;
-    width: 50px;
+    /* width: 50px; */
+    /* width: 7.5vmin; */
+    width: 4vw;
     align-items: center;
     border: none;
     
@@ -83,7 +96,8 @@
 }
 
 .search-icon{
-    width: 50px;
+    /* width: 50px; */
+    width: 7.5vmin;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,27 +106,31 @@
 }
 
 .nav-hello{
-    font-size: 12px;
+    /* font-size: 12px;  */
+     font-size: 2vmin; 
     
 }
 
 .nav-account{
-    font-size: 15px;
+     /* font-size: 15px;  */
+     font-size: 2.3vmin; 
     font-weight: 700;
 }
 
 .nav-cart i{
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 4vmin;
 
 }
 
 .nav-cart{
-    font-weight: 700;
+    font-weight: 750;
 }
 
 .panel{
     display: flex;
-    height: 40px;
+    /* height: 40px; */
+    height: 7vmin;
     background-color: #222f3d;
     color: white;
     align-items: center;
@@ -135,11 +153,15 @@
 
 .hero-panel{
     background-image: url(https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg);
-    height: 600px;
+    /* height: 600px; */
+    height: 90vmin;
     background-size: cover;
     object-fit: cover;
     object-position: center;
     background-position: center;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     
     }
 
@@ -178,12 +200,14 @@
 } 
     
 .box {
-    height: 410px;
+    /* height: 410px; */
+    height: 65vmin;
     position: relative;
     top: 300px;
     width: 23%;
     background-color: #f3f3f3;
     padding: 20px, 0px, 15px;
+    
     
 } 
 
@@ -193,7 +217,8 @@
 
 .box-img1{
      background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg) ;
-    height: 300px;
+    /* height: 300px; */
+    height: 48vmin;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -201,7 +226,7 @@
 .box1 p{
     color: #007185;
     position: relative;
-    top: 15px;
+    top: 18px;
     left: 10px;
 }
 
@@ -210,9 +235,12 @@
 .box2-img1{
     background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg);
     background-size: cover;
-    height: 300px;
+    /* height: 300px; */
+    background-position: center;
+    height: 48vmin;
     margin-left: 1rem;
     margin-right: 1rem;
+
 }
 
 .box2 h2{
@@ -232,7 +260,8 @@
     background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v5._SY304_CB573698005_.jpg);
     background-size: cover;
     background-position: center;
-    height: 300px;
+    /* height: 300px; */
+    height: 48vmin;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -255,7 +284,8 @@
     background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v8._SY304_CB573698005_.jpg);
     background-size: cover;
     background-position: center;
-    height: 300px;
+    /* height: 300px; */
+    height: 48vmin;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -276,6 +306,7 @@
 .shop-section2{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 20px;
     background-color: #e2e7e6;
     
@@ -285,7 +316,8 @@
     background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v6._SY304_CB573698005_.jpg);
     background-size: cover;
     background-position: center;
-    height: 300px;
+    /* height: 300px; */
+    height: 48vmin;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -307,7 +339,8 @@
     background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg);
     background-size: cover;
     background-position: center;
-    height: 300px;
+    /* height: 300px; */
+    height: 45vmin;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -319,7 +352,7 @@
 .box6 p{
     color: #007185;
     position: relative;
-    top: 5px;
+    top: 8px;
     left: 10px; 
 }
 
@@ -329,7 +362,8 @@
     background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/dex/2023/Roar/October/D_CC_Roar_OfficeDepot_1023_1X_Furnitrure_v2._SY304_CB577544739_.jpg);
     background-size: cover;
     background-position: center;
-    height: 300px;
+    /* height: 300px; */
+    height: 45vmin;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -341,7 +375,7 @@
 .box7 p{
     color: #007185;
      position: relative;
-    top: 5px;
+    top: 8px;
     left: 10px; 
 }
 
@@ -351,7 +385,8 @@
     background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2023/img/Consumer_Electronics/XCM_CUTTLE_1546843_2940864_379x304_1X_en_US._SY304_CB613273467_.jpg);
     background-size: cover;
     background-position: center;
-    height: 300px;
+    /* height: 300px; */
+    height: 45vmin;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -363,7 +398,7 @@
 .box8 p{
     color: #007185;
      position: relative;
-    top: 5px;
+    top: 8px;
     left: 10px;
 }
 
@@ -372,13 +407,16 @@
 .shop-section3{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     background-color: #e2e7e6;
     width: 100%;
-    height: 800px;
+    /* height: 800px; */
+    height: 123vmin;
 }
 
 .box9{
-    height: 300px;
+    /* height: 300px; */
+    height: 48vmin;
     position: relative;
     top: 300px;
     width: 100%;
@@ -393,10 +431,12 @@
 .box9-img1{
     background-image: url(https://m.media-amazon.com/images/I/61TZzq7oBKL._AC_SY200_.jpg);
     background-repeat: no-repeat;
-    height: 200px;
+    /* height: 200px; */
+    height: 30vmin;
     margin-left: 15px;
     margin-top: 20px;
-    width: 170px;
+    /* width: 170px; */
+    width: 28vmin;
     display: inline-block;
     
     
@@ -405,17 +445,21 @@
 
 .img10{
     background-image: url(https://m.media-amazon.com/images/I/81DwNmun78S._AC_SY200_.jpg);
-    height: 200px;
+    /* height: 200px; */
+    height: 30vmin;
     background-repeat: no-repeat;
-    width: 100px;
+    /* width: 100px; */
+    width: 18vmin;
      display: inline-block;
      margin-right: 20px;
 }  
 
 .img11{
     background-image: url(https://m.media-amazon.com/images/I/71gHRy76hwL._AC_SY200_.jpg);
-    height: 200px;
-    width: 200px;
+    /* height: 200px;
+    width: 200px; */
+    height: 31vmin;
+    width: 30vmin;
     background-repeat: no-repeat;
     display: inline-block; 
 }
@@ -423,8 +467,10 @@
 .img12{
     background-image: url(https://m.media-amazon.com/images/I/61zofN+aPmL._AC_SY200_.jpg);
     background-repeat: no-repeat;
-    height: 200px;
-    width: 270px;
+    /* height: 200px;
+    width: 270px; */
+    height: 30vmin;
+    width: 41vmin;
     display: inline-block;
     
 }
@@ -432,8 +478,10 @@
 .img13{
     background-image: url(https://m.media-amazon.com/images/I/81iNXL+fSpL._AC_SY200_.jpg);
     background-repeat: no-repeat;
-    height: 200px;
-    width: 230px;
+    /* height: 200px;
+    width: 230px; */
+    height: 30vmin;
+    width: 35vmin;
     display: inline-block;
     margin-right: 30px;
     
@@ -442,8 +490,10 @@
 .img14{
     background-image: url(https://m.media-amazon.com/images/I/71wQb2LWUkL._AC_SY200_.jpg);
     background-repeat: no-repeat;
-    height: 200px;
-    width: 220px;
+    /* height: 200px;
+    width: 220px; */
+    height: 30vmin;
+    width: 33vmin;
     display: inline-block;
 }
 
@@ -460,11 +510,13 @@
     justify-content: space-evenly;
     background-color: #e2e7e6;
     width: 100%;
-    height: 320px;
+    /* height: 320px; */
+    height: 51vmin;
 }
 
 .box15{
-    height: 300px;
+    /* height: 300px; */
+    height: 48vmin;
     position: relative;
     bottom: 140px;
     width: 100%;
@@ -480,10 +532,12 @@
 .box15-img1{
     background-image: url(https://m.media-amazon.com/images/I/71n56hZqOML._AC_SY200_.jpg);
     background-repeat: no-repeat;
-    height: 200px;
+    /* height: 200px; */
+    height: 30vmin;
     margin-left: 15px;
     margin-top: 20px;
-    width: 190px;
+    /* width: 190px; */
+    width: 29vmin;
     display: inline-block;
     
     
@@ -492,17 +546,21 @@
 
 .img16{
     background-image: url(https://m.media-amazon.com/images/I/61G6nIXoAqL._AC_SY200_.jpg);
-    height: 200px;
+    /* height: 200px; */
+    height: 31vmin;
     background-repeat: no-repeat;
-    width: 130px;
+    /* width: 130px; */
+    width: 20vmin;
      display: inline-block;
      margin-right: 20px;
 }  
 
 .img17{
     background-image: url(https://m.media-amazon.com/images/I/81AewVBKcvL._AC_SY200_.jpg);
-    height: 200px;
-    width: 140px;
+    /* height: 200px; */
+    height: 31vmin;
+    /* width: 140px; */
+    width: 22vmin;
     background-repeat: no-repeat;
     display: inline-block; 
 }
@@ -510,8 +568,10 @@
 .img18{
     background-image: url(https://m.media-amazon.com/images/I/61UKjuKqDNL._AC_SY200_.jpg);
     background-repeat: no-repeat;
-    height: 200px;
-    width: 170px;
+    /* height: 200px; */
+    height: 30vmin;
+    width: 26vmin;
+    /* width: 170px; */
     display: inline-block;
     
 }
@@ -519,8 +579,10 @@
 .img19{
     background-image: url(https://m.media-amazon.com/images/I/61oK-J6lViL._AC_SY200_.jpg);
     background-repeat: no-repeat;
-    height: 200px;
-    width: 200px;
+    /* height: 200px;
+    width: 200px; */
+    height: 30vmin;
+    width: 30vmin;
     display: inline-block;
     margin-right: 30px;
     
@@ -529,16 +591,20 @@
 .img20{
     background-image: url(https://m.media-amazon.com/images/I/71nkM-n+S3L._AC_SY200_.jpg);
     background-repeat: no-repeat;
-    height: 200px;
-    width: 280px;
+    /* height: 200px;
+    width: 280px; */
+    height: 32vmin;
+    width: 38.5vmin;
     display: inline-block;
 }
 
 .img21{
     background-image: url(https://m.media-amazon.com/images/I/71oSL2MUiVL._AC_SY200_.jpg);
     background-repeat: no-repeat;
-    height: 200px;
-    width: 100px;
+    height: 32vmin;
+    width: 15vmin;
+    /* height: 200px;
+    width: 100px; */
     display: inline-block;
 }
 
@@ -553,17 +619,18 @@
     justify-content: space-evenly;
     background-color: #e2e7e6;
     width: 100%;
-    height: 320px;
+    /* height: 320px; */
+    height: 33vmin;
 }
 
 .box16{
-    height: 300px;
+    /* height: 300px; */
+    height: 45vmin;
     position: relative;
     bottom: 140px;
     width: 100%;
     background-color: white;
     padding: 20px, 0px, 15px;
-    margin-top: 20; 
     margin-left: 1rem;
     margin-right: 1rem;
     
@@ -572,10 +639,12 @@
 .box22-img1{
     background-image: url(https://m.media-amazon.com/images/I/91rDyK8grkL._AC_SY200_.jpg);
     background-repeat: no-repeat;
-    height: 200px;
+    /* height: 200px; */
+    height: 30vmin;
     margin-left: 15px;
     margin-top: 20px;
-    width: 150px;
+    /* width: 150px; */
+    width: 24vmin;
     display: inline-block;
     
     
@@ -584,17 +653,21 @@
 
 .img23{
     background-image: url(https://m.media-amazon.com/images/I/81cqVE2vwvL._AC_SY200_.jpg);
-    height: 200px;
+    /* height: 200px; */
+    height: 30vmin;
     background-repeat: no-repeat;
-    width: 150px;
+    /* width: 150px; */
+    width: 20vmin;
      display: inline-block;
      margin-right: 20px;
 }  
 
 .img24{
     background-image: url(https://m.media-amazon.com/images/I/81dSU9tlRhL._AC_SY200_.jpg);
-    height: 200px;
-    width: 450px;
+    /* height: 200px;
+    width: 450px; */
+    height: 30vmin;
+    width: 67vmin;
     background-size: cover;
     background-repeat: no-repeat;
     display: inline-block; 
@@ -603,8 +676,10 @@
 .img25{
     background-image: url(https://m.media-amazon.com/images/I/51dJEpB2pNL._AC_SY200_.jpg);
     background-repeat: no-repeat;
-    height: 200px;
-    width: 170px;
+    /* height: 200px;
+    width: 170px; */
+    height: 30vmin;
+    width: 28vmin;
     display: inline-block;
     
 }
@@ -612,8 +687,10 @@
 .img26{
     background-image: url(https://m.media-amazon.com/images/I/71ZDg-qyyFL._AC_SY200_.jpg);
     background-repeat: no-repeat;
-    height: 200px;
-    width: 300px;
+    /* height: 200px;
+    width: 300px; */
+    height: 30vmin;
+    width: 44vmin;
     display: inline-block;
     margin-right: 30px;
     
@@ -630,8 +707,10 @@
 .foot-panel1{
     background-color: #37475a;
     color: white;
-    height: 50px;
-    width: 1340px;
+    /* height: 50px; */
+    height: 8vmin;
+    /* width: 1340px; */
+    width: 206vmin;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -639,7 +718,8 @@
 }
 
 .panel2{
-    height: 300px;
+    /* height: 300px; */
+    height: 45vmin;
     background-color: #283444;
     color: white;
     display: flex;
@@ -661,7 +741,8 @@ ul a{
     /* background-color: #283444; */
     background-color: #273241;
     border-top: #dddddd solid 0.5px;
-    height: 120px;
+    /* height: 120px; */
+    height: 20vmin;
     display: flex;
     
 }
@@ -669,10 +750,12 @@ ul a{
 .logo2{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy8L1HIH2ZlhTcSR2x5c993GIA6DFFs06YEg&s);
     background-size: cover;
-    height: 80px;
-    width: 150px;
-    margin-left: 400px;
-    margin-top: 10px;
+    /* height: 80px;
+    width: 150px; */
+    height: 12vmin;
+    width: 16vmin;
+    margin-left: 450px;
+    margin-top: 13px;
     
 }
 
@@ -689,7 +772,8 @@ ul a{
     padding: 10px;
     margin-right: 10px;
     text-align: center;
-    height: 40px;
+    /* height: 40px; */
+    height: 6vmin;
     display: flex;
     justify-content: space-around;
 }
@@ -701,13 +785,15 @@ ul a{
 .content2 img{
     margin-bottom: 5px;
     margin-right: 5px;
-    height: 15px;
+    /* height: 15px; */
+    height: 3vmin;
 }
 
 .panel4{
     background-color: #1f2833;
     color: #dddddd;
-    height: 80px;
+    /* height: 80px; */
+    height: 12vmin;
     text-align: center;
     font-size: 0.8rem;
     
@@ -718,3 +804,5 @@ ul a{
     padding: 10px; 
     margin-left: 20px;
  }
+
+
